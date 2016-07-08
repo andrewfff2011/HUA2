@@ -1,3 +1,5 @@
+import re
+
 searchText = """AGCTTTTCATTCTGACTGCAACGGGCAATATGTCTCTGTGTGGATTAAAAAAAGAGTGTCTGATAGCAGC
 TTCTGAACTGGTTACCTGCCGTGAGTAAATTAAAATTTTATTGACTTAGGTCACTAAATACTTTAACCAA
 TATAGGCATAGCGCACAGACAGATAAAAATTACAGAGTACACAACATCCATGAAACGCATTAGCACCACC
@@ -18,21 +20,11 @@ CTAAAGTTCTTCACCCCCGCACCATTACCCCCATCGCCCAGTTCCAGATCCCTTGCCTGATTAAAAATAC
 CGGAAATCCTCAAGCACCAGGTACGCTCATTGGTGCCAGCCGTGATGAAGACGAATTACCGGTCAAGGGC
 ATTTCCAATCTGAATAACATGGCAATGTTCAGCGTTTCTGGTCCGGGGATGAAAGGGATGGTCGGCATGG"""
 
-aCounter = 0
-tCounter = 0
-gCounter = 0
-cCounter = 0
+aCounter = re.findall("A", searchText)
+tCounter = re.findall("T", searchText)
+gCounter = re.findall("G", searchText)
+cCounter = re.findall("C", searchText)
 
-for i in range(0, len(searchText)):
-    if searchText[i] == "A":
-        aCounter += 1
-    elif searchText[i] == "T":
-        tCounter += 1
-    elif searchText[i] == "G":
-        gCounter += 1
-    elif searchText[i] == "C":
-        cCounter += 1
-
-print "Ratio:\n","-----\n",str(aCounter),"A\n",str(tCounter),"T\n",str(gCounter),"G\n",str(cCounter),"C\n"
+print "Ratio:\n","-----\n",len(aCounter),"A\n",len(tCounter),"T\n",len(gCounter),"G\n",len(cCounter),"C\n"
         
 
