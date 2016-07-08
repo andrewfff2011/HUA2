@@ -12,3 +12,5 @@ When I used tblastn, the top results were from an mRNA sequence and a synthetic 
 When I used blastx, the results had less of a match, but were mostly in the 95% - 99% range, however, there are 3 results that had a match of around 65%.
 
 Comparing with humans, there were no matches with the nucleotide sequence, nor with the protein sequence. 
+
+This is an edit from NANO
