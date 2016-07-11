@@ -1,0 +1,14 @@
+AAC73459.1 alcohol dehydrogenase class III; glutathione-dependent formaldehyde dehydrogenase [Escherichia coli str. K-12 substr. MG1655]:
+this gene produces a dehydrogenase enzyme, which removes one or more hydrogen atoms. It is dependent on an oxidizer, and is based on formaldehyde to function
+
+AAC73534.1 cytochrome o ubiquinol oxidase subunit I [Escherichia coli str. K-12 substr. MG1655]:
+This gene produces a cytochrome, which is an iron containing hemeprotein that is essential to the generation of ATP through electron transport.
+
+AAC73538.2 stationary-phase morphogene, transcriptional repressor for mreB; also regulator for dacA, dacC, and ampC [Escherichia coli str. K-12 substr. MG1655]:
+This gene produces a morphogen, which is used in tissue development. It also interacts with mreB, which regulates the width of the E-coli cell, and also interacts with dacA, dacC, and ampC.
+
+AAC73540.1 proteolytic subunit of ClpA-ClpP and ClpX-ClpP ATP-dependent serine proteases [Escherichia coli str. K-12 substr. MG1655]
+This gene produces a subunit of an enzyme that breaks down proteins. This enzyme is a serine protease, which cleaves peptite bonds, and is found in both eukaryotes and prokaryotes
+
+AAC73541.1 ATPase and specificity subunit of ClpX-ClpP ATP-dependent serine protease [Escherichia coli str. K-12 substr. MG1655]
+This gene produces ATP and is very similar to the previous gene.
