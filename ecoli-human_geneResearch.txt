@@ -5,7 +5,7 @@ AAC73534.1 cytochrome o ubiquinol oxidase subunit I [Escherichia coli str. K-12 
 This gene produces a cytochrome, which is an iron containing hemeprotein that is essential to the generation of ATP through electron transport.
 
 AAC73538.2 stationary-phase morphogene, transcriptional repressor for mreB; also regulator for dacA, dacC, and ampC [Escherichia coli str. K-12 substr. MG1655]:
-This gene produces a morphogen, which is used in tissue development. It also interacts with mreB, which regulates the width of the E-coli cell, and also interacts with dacA, dacC, and ampC.
+This gene produces a morphogen, which is used in tissue development. It also interacts with mreB, which regulates the width of the E-coli cell. If the gene is mutated, the mreB will not regulate the cell shape correctly, and will produce a spiral-shaped cell instead of a rod-shaped cell. This protein also interacts with dacA, dacC, and ampC.
 
 AAC73540.1 proteolytic subunit of ClpA-ClpP and ClpX-ClpP ATP-dependent serine proteases [Escherichia coli str. K-12 substr. MG1655]
 This gene produces a subunit of an enzyme that breaks down proteins. This enzyme is a serine protease, which cleaves peptite bonds, and is found in both eukaryotes and prokaryotes
